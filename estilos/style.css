@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone {
+    position: absolute;
+    width: 311px;
+    height: 627px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+}
+
+section#telefone iframe#tela {
+    position: relative;
+    top: 83px;
+    left: 25px;
+    height: 466px;
+    width: 262px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais a.botao-social img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000066;
+    box-sizing: border-box;
+}
+
+section#redes-sociais a.botao-social img:hover {
+    border: 2px solid #ffffff99;
+    box-shadow: 4px 4px 10px #00000066;
+    transform: translate(-5%, -5%);
+    transition: ease-in-out 0.2s;
+}
